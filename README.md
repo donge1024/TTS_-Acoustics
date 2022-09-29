@@ -1,4 +1,4 @@
-# Pyramid-TTS
+# TTS
 This is a novel TTS model for high-quality speech synthesis based on speech feature pyramids.
 Specifically, low-level features refer to voice characteristics of energy and pitch, which are extracted from the audio spectrogram and correspond to the sound elements of loundness and tone. The high-level features are obtained by time-frequency analysis of mel spectrogram that inherit the sound element of timbre. Then, the low-level and high-level features are fused in the  pyramid form to obtain the comprehensive voice characterization of the speaker.
 
