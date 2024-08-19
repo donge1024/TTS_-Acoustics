@@ -1,9 +1,10 @@
 # TTS
-This is a novel TTS model for high-quality speech synthesis based on speech feature pyramids.
-Specifically, low-level features refer to voice characteristics of energy and pitch, which are extracted from the audio spectrogram and correspond to the sound elements of loundness and tone. The high-level features are obtained by time-frequency analysis of mel spectrogram that inherit the sound element of timbre. Then, the low-level and high-level features are fused in the  pyramid form to obtain the comprehensive voice characterization of the speaker.
+The basic idea of this method is to design three predictors based on the acoustic structure to fully express the speech features. The timbre predictor obtains the time-frequency feature through the time-frequency analysis of the spectrogram, which reflects the speaker's timbre. The loudness predictor and the tone predictor obtain the energy feature and the pitch feature from the amplitude and frequency of the spectrogram, which represent the speaker's loudness and tone. Extensive experiments show that our model can effectively synthesize high-quality speech that is closer to the speaker's speech features than other state-of-the-art methods.
+![pipeline11](https://github.com/user-attachments/assets/0fb01682-6d84-4f85-999c-c2dac0828fcf)
 
+# Demo
+https://github.com/user-attachments/assets/45404955-2f89-41e2-8081-29db55d393af
 
-![overview](https://user-images.githubusercontent.com/114487375/193214802-ac76fc90-baa6-4a9c-ac22-85902b392584.jpg)
 
 
 # Audio Samples
